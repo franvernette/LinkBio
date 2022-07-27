@@ -30,11 +30,11 @@ header {
 }
 .icon1{
 padding:1em;
-
+padding-bottom:0.1em;
 }
 header > img {
-  width: 14em;
-  height: 14em;
+  width: 12em;
+  height: 12em;
   border-radius: 100%;
   border: rgb(28 32 93 / 50%) 0px 2px 8px 0px;
   
@@ -60,7 +60,7 @@ ul {
   list-style: none;
   margin: 0 auto; 
 
-  padding: 1em;
+  padding:0.2em;
   max-width: 300px;
 }
 
@@ -110,13 +110,23 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+    justify-content: center;
+
 }
 
+.maybe{
+  display: flex;
+  align-items: center;
+  padding-left: 2em
+    justify-content: center;
+
+
+}
 h1{
 border: solid;
 border-color: black;
 background-color: black;
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   color: white;
   padding: 0.2em;
